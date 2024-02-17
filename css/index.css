@@ -1,0 +1,77 @@
+*{
+    font-family: 'Roboto', serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.main-div{
+    
+}
+.backcover{
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+.navbar{
+    display: flex;
+    padding: 15px 30px 0px 30px;
+    align-items: center;
+    gap: 250px;
+}
+.logo{
+    height: 40px;
+}
+.nav-items{
+    display: flex;
+    gap: 50px;
+}
+.nav-item{
+    color: rgb(22, 22, 117);
+    font-size: larger;
+}
+.signin-btn{
+    padding: 5px 15px;
+    background: linear-gradient(45deg, rgb(22, 22, 117),rgb(233, 13, 160));
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.intro-section{
+    display: flex;
+    padding: 0px 30px;
+}
+.left-section{
+
+}
+    
+h1{
+    padding-top: 100px;
+    font-size: 80px;
+    color:rgb(41, 41, 160) ;
+}
+h4{
+    color: rgb(138, 138, 233);
+    font-size: larger;
+}
+.learn-more-btn{
+    padding: 10px 40px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 30px;
+    background: linear-gradient(45deg,rgb(74, 74, 216),rgb(223, 80, 175));
+
+}
+.imgs-div{
+    display: flex;
+}
+.vector-img{
+    position: fixed;
+    bottom: 0;
+}
+.vector-dot{
+    position: fixed;
+    bottom: 90px;
+    left: 523px;
+}
